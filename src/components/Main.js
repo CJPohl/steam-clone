@@ -13,14 +13,18 @@ import Footer from "./Footer";
 const Main = () => {
     return (
         <div className="main">
-            <NavBar />
-            <Featured />
-            <SpecialOffers />
-            <SteamDeck />
-            <BrowseSteam />
-            <GameSelector />
-            <Under10 />
-            <Updates />
+            <div className="upper-main">
+                <NavBar />
+                <Featured />
+                <SpecialOffers />
+                <SteamDeck />
+                <BrowseSteam />  
+            </div>
+           <div className="lower-main">
+               <GameSelector />
+                <Under10 />
+                <Updates />
+           </div>
             <LookingFor />
             <Footer />
         </div>

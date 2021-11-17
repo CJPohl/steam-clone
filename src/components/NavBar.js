@@ -1,22 +1,24 @@
 const NavBar = () => {
     return (
-        <section className="nav-bar">
-            <nav>
-                <div className="nav-links">
-                    <ul>
-                        <li>Your Store</li>
-                        <li>New & Noteworthy</li>
-                        <li>Categories</li>
-                        <li>Points Shop</li>
-                        <li>News</li>
-                        <li>Labs</li>
-                    </ul>
-                </div>
-                <div className="nav-search">
-                    <input type="text" placeholder="search"></input>
-                    <a href="#">Icon</a>
-                </div>
-            </nav>
+        <section>
+            <div className="nav-bar section">
+                <nav>
+                    <div className="nav-links">
+                        <ul>
+                            <button>Your Store</button>
+                            <button>New & Noteworthy</button>
+                            <button>Categories</button>
+                            <button>Points Shop</button>
+                            <button>News</button>
+                            <button>Labs</button>
+                        </ul>
+                    </div>
+                    <div className="nav-search">
+                        <input type="text" placeholder="search"></input>
+                        <button><i class="fas fa-search"></i></button>
+                    </div>
+                </nav>
+            </div>
         </section>
     );
 }
