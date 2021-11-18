@@ -21,7 +21,7 @@ const Main = () => {
                 <BrowseSteam />  
             </div>
            <div className="lower-main">
-               <GameSelector />
+                <GameSelector />
                 <Under10 />
                 <Updates />
            </div>
