@@ -31,6 +31,9 @@ li {
 .lower-main {
   background: radial-gradient(farthest-corner at 40px 40px,#2A475E 0%, #1B2838 80%);
   padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 .looking-for {
@@ -198,7 +201,6 @@ header {
 .install-nav button:hover {
   color: #ffffff;
 }
-
 
 /* NavBar */
 .nav-bar {
@@ -421,6 +423,13 @@ header {
   font-size: 14px;
   text-shadow: 1px 1px 0px rgb(255 255 255 / 10%);
 }
+
+.special-3 {
+  display: flex;
+  flex-direction: column;
+  gap: .7rem;
+}
+
 .special-3 p {
   font-size: 11px;
   color: #283846;
@@ -666,3 +675,112 @@ header {
   line-height: 13px;
   color: #acdbf5;
 }
+
+/* UNDER 10 */
+.under-10 {
+  font-family: "Open sans", sans-serif;
+}
+
+.under-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.under-header h3 {
+  font-size: 14px;
+  margin-bottom: .5rem;
+  color: #ffffff;
+  letter-spacing: .03em;
+}
+
+.under-header-btns {
+  display: flex;
+  align-items: center;
+  gap: .4rem;
+}
+
+.under-games {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: .5rem;
+  margin-bottom: .8rem;
+}
+
+.under-games img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
+#under-left, #under-right {
+  position: absolute;
+}
+
+#under-left {
+  top: 15%;
+  left: -3rem;
+}
+
+#under-right {
+  top: 15%;
+  right: -3rem;
+}
+
+.under-game-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.under-game-footer {
+  background: radial-gradient(farthest-corner at 40px 40px,#2A475E 0%, #345b8b 80%);
+  display: flex;
+  justify-content: flex-end;
+  padding: 5px;
+}
+
+.under-game-footer:hover {
+  background: radial-gradient(farthest-corner at 40px 40px,#2A475E 0%, #4b78ad 80%);
+}
+
+.under-game-footer p {
+  color: #acdbf5;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  padding: 0 9px;
+  line-height: 17px;
+  background-color: rgba(20,31,44,0.4);
+  border-radius: 1px;
+}
+
+/* UPDATES */
+.updates-offers {
+  font-family: "Open sans", sans-serif;
+}
+
+.updates-offers h3 {
+  font-size: 14px;
+  margin-bottom: .5rem;
+  color: #ffffff;
+  letter-spacing: .03em;
+}
+
+.update-games {
+  display: grid;
+}
+
+/* LookingFor */
+.looking-for-container {
+  padding: 1rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+/* Footer */
