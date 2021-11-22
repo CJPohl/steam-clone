@@ -6,7 +6,7 @@ const LookingFor = () => {
                     <h1>Looking for recommendations?</h1>
                     <p>Sign in to view personalized recommendations</p>
                     <button>Sign in</button>
-                    <p>Or <span>sign up</span> and join Myst for free</p>
+                    <p>Or <span><a href="#">sign up</a></span> and join Myst for free</p>
                 </div>
             </div>
         </section>

@@ -43,7 +43,7 @@ const Under10 = () => {
                     </div>
                 </div>
                 <div className="image-carosel">
-                    <div className="carosel-box"></div>
+                    <div className="carosel-box active"></div>
                     <div className="carosel-box"></div>
                 </div>
             </div>

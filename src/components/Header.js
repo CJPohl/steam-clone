@@ -16,7 +16,7 @@ const Header = () => {
                 <div className="header-bottom">  
                     <div className="logo-container">
                         <i class="fab fa-cloudsmith"></i>
-                        <h1>Myst</h1>
+                        <h1>MYST</h1>
                     </div>
                     <nav className="header-nav">
                         <ul>

@@ -1,7 +1,10 @@
+import Sidebar from "./Sidebar";
+
 const NavBar = () => {
     return (
         <section>
             <div className="nav-bar section">
+                <Sidebar />
                 <nav>
                     <div className="nav-links">
                         <ul>
