@@ -1,6 +1,6 @@
 const Sidebar = () => {
     return (
-        <section className="sidebar">
+        <aside className="sidebar">
             <div className="sidebar-logo">
                 <i class="fab fa-cloudsmith"></i>
                 <h1>MYST</h1>
@@ -53,7 +53,7 @@ const Sidebar = () => {
                 <a href="#">Viewed Game 5</a>
                 <a href="#">Viewed Game 6</a>
             </div>
-        </section>
+        </aside>
     );
 }
 

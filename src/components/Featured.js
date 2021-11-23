@@ -12,7 +12,7 @@ const Featured = () => {
                 <div className="featured-image-container">
                     <button className="button-left arrow" id="featured-left"><i class="fas fa-chevron-left"></i></button>
                     <button className="button-right arrow" id="featured-right"><i class="fas fa-chevron-right"></i></button>
-                    <img src={gameImg1}></img>
+                    <img className="featured-container-left" src={gameImg1}></img>
                     <div className="featured-info">
                         <h2>Earthcraft</h2>
                         <div className="featured-images">
