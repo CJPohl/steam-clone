@@ -1,18 +1,21 @@
-import gameImg4 from '../images/pexels-stas-knop-1298601.jpg';
-import gameImg5 from '../images/pexels-stas-knop-1462725.jpg';
+const SteamDeck = (props) => {
+  const images = props.images;
 
-const SteamDeck = () => {
-    return (
-        <section className="steam-deck">
-            <div className="section">
-                <div className="steam-deck-images">
-                    <h3>MYST <span>DOCK</span></h3>
-                    <img src={gameImg4}></img>
-                    <img src={gameImg5}></img>
-                </div>
-            </div>
-        </section>
-    );
-}
+  return (
+    <section className="steam-deck">
+      <div className="section">
+        <div className="steam-deck-images">
+          <div id="myst-dock-1">
+            <img src={images[3]}></img>
+          </div>
+          <div id="myst-dock-2">
+            <img src={images[4]}></img>
+            <h3>MYST DOCK</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
 
 export default SteamDeck;

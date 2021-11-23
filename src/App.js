@@ -3,10 +3,10 @@ import "@fortawesome/fontawesome-free/js/solid";
 import "@fortawesome/fontawesome-free/js/regular";
 import "@fortawesome/fontawesome-free/js/brands";
 
-import Header from './components/Header';
-import Main from './components/Main';
+import Header from "./components/Header";
+import Main from "./components/Main";
 
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
