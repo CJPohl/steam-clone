@@ -137,7 +137,6 @@ li {
   flex-direction: column;
   gap: 0.4rem;
   width: 13rem;
-  visibility: visible;
 }
 
 .sidebar-logo {
@@ -286,6 +285,7 @@ header {
 
 /* NavBar */
 .nav-bar {
+  position: relative;
   background: radial-gradient(
     farthest-corner at 40px 40px,
     #4280b3 0%,
@@ -1109,7 +1109,7 @@ header {
   }
   /* SIDEBAR */
   .sidebar {
-    visibility: hidden;
+    display: none;
   }
 
   /* HEADER */
