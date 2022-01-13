@@ -12,11 +12,11 @@ const Header = () => {
                 <i className="fab fa-instalod"></i>Install Myst
               </button>
               <li>
-                <a href="#">login</a>
+                <a href="/">login</a>
               </li>
               <p> | </p>
               <li>
-                <a href="#">language</a>&nbsp;<i class="fas fa-sort-down"></i>
+                <a href="/">language</a>&nbsp;<i class="fas fa-sort-down"></i>
               </li>
             </ul>
           </nav>
@@ -29,16 +29,16 @@ const Header = () => {
           <nav className="header-nav">
             <ul>
               <li>
-                <a href="#">STORE</a>
+                <a href="/">STORE</a>
               </li>
               <li>
-                <a href="#">COMMUNITY</a>
+                <a href="/">COMMUNITY</a>
               </li>
               <li>
-                <a href="#">ABOUT</a>
+                <a href="/">ABOUT</a>
               </li>
               <li>
-                <a href="#">SUPPORT</a>
+                <a href="/">SUPPORT</a>
               </li>
             </ul>
           </nav>

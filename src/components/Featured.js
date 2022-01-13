@@ -12,17 +12,17 @@ const Featured = (props) => {
           <button className="button-right arrow" id="featured-right">
             <i className="fas fa-chevron-right"></i>
           </button>
-          <img className="featured-container-left" src={images[0]}></img>
+          <img className="featured-container-left" alt='stock' src={images[0]}></img>
           <div className="featured-info">
             <h2>Earthcraft</h2>
             <div className="featured-images">
               <div className="featured-imgs-1">
-                <img src={images[2]}></img>
-                <img src={images[3]}></img>
+                <img src={images[2]} alt='stock'></img>
+                <img src={images[3]} alt='stock'></img>
               </div>
               <div className="featured-imgs-2">
-                <img src={images[4]}></img>
-                <img src={images[5]}></img>
+                <img src={images[4]} alt='stock'></img>
+                <img src={images[5]} alt='stock'></img>
               </div>
             </div>
             <h2 id="available">Now Available</h2>

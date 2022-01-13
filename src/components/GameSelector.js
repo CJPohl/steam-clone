@@ -6,12 +6,12 @@ const GameSelector = (props) => {
       <div className="section">
         <nav className="game-selector-nav">
           <ul>
-            <a id="selected" href="#">
+            <a id="selected" href="/">
               New & Trending
             </a>
-            <a href="#">Top Sellers</a>
-            <a href="#">Popular Upcoming</a>
-            <a href="#">Specials</a>
+            <a href="/">Top Sellers</a>
+            <a href="/">Popular Upcoming</a>
+            <a href="/">Specials</a>
           </ul>
         </nav>
         <div className="game-selector-container">
@@ -21,7 +21,7 @@ const GameSelector = (props) => {
           </div>
           <div className="games-container">
             <div className="game-selector-game">
-              <img src={images[0]}></img>
+              <img src={images[0]} alt='stock'></img>
               <div className="game-info-left">
                 <h5>Game Name</h5>
                 <i className="fab fa-windows"></i>
@@ -37,7 +37,7 @@ const GameSelector = (props) => {
           </div>
           <div className="games-container">
             <div className="game-selector-game">
-              <img src={images[1]}></img>
+              <img src={images[1]} alt='stock'></img>
               <div className="game-info-left">
                 <h5>Game Name</h5>
                 <i className="fab fa-windows"></i>
@@ -53,7 +53,7 @@ const GameSelector = (props) => {
           </div>
           <div className="games-container">
             <div className="game-selector-game">
-              <img src={images[2]}></img>
+              <img src={images[2]} alt='stock'></img>
               <div className="game-info-left">
                 <h5>Game Name</h5>
                 <i className="fab fa-windows"></i>
@@ -72,7 +72,7 @@ const GameSelector = (props) => {
           </div>
           <div className="games-container">
             <div className="game-selector-game">
-              <img src={images[3]}></img>
+              <img src={images[3]} alt='stock'></img>
               <div className="game-info-left">
                 <h5>Game Name</h5>
                 <i className="fab fa-windows"></i>
@@ -88,7 +88,7 @@ const GameSelector = (props) => {
           </div>
           <div className="games-container">
             <div className="game-selector-game">
-              <img src={images[4]}></img>
+              <img src={images[4]} alt='stock'></img>
               <div className="game-info-left">
                 <h5>Game Name</h5>
                 <i className="fab fa-windows"></i>
@@ -107,7 +107,7 @@ const GameSelector = (props) => {
           </div>
           <div className="games-container">
             <div className="game-selector-game">
-              <img src={images[5]}></img>
+              <img src={images[5]} alt='stock'></img>
               <div className="game-info-left">
                 <h5>Game Name</h5>
                 <i className="fab fa-windows"></i>
@@ -123,7 +123,7 @@ const GameSelector = (props) => {
           </div>
           <div className="games-container">
             <div className="game-selector-game">
-              <img src={images[0]}></img>
+              <img src={images[0]} alt='stock'></img>
               <div className="game-info-left">
                 <h5>Game Name</h5>
                 <i className="fab fa-windows"></i>
@@ -139,7 +139,7 @@ const GameSelector = (props) => {
           </div>
           <div className="games-container">
             <div className="game-selector-game">
-              <img src={images[1]}></img>
+              <img src={images[1]} alt='stock'></img>
               <div className="game-info-left">
                 <h5>Game Name</h5>
                 <i className="fab fa-windows"></i>
@@ -155,7 +155,7 @@ const GameSelector = (props) => {
           </div>
           <div className="games-container">
             <div className="game-selector-game">
-              <img src={images[2]}></img>
+              <img src={images[2]} alt='stock'></img>
               <div className="game-info-left">
                 <h5>Game Name</h5>
                 <i className="fab fa-windows"></i>
@@ -171,7 +171,7 @@ const GameSelector = (props) => {
           </div>
           <div className="games-container">
             <div className="game-selector-game">
-              <img src={images[3]}></img>
+              <img src={images[3]} alt='stock'></img>
               <div className="game-info-left">
                 <h5>Game Name</h5>
                 <i className="fab fa-windows"></i>

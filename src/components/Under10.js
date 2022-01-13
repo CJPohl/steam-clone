@@ -19,25 +19,25 @@ const Under10 = (props) => {
             <i className="fas fa-chevron-right"></i>
           </button>
           <div className="under-game-container">
-            <img src={images[0]}></img>
+            <img src={images[0]} alt='stock'></img>
             <div className="under-game-footer">
               <p>$9.99</p>
             </div>
           </div>
           <div className="under-game-container">
-            <img src={images[1]}></img>
+            <img src={images[1]} alt='stock'></img>
             <div className="under-game-footer">
               <p>$9.99</p>
             </div>
           </div>
           <div className="under-game-container">
-            <img src={images[2]}></img>
+            <img src={images[2]} alt='stock'></img>
             <div className="under-game-footer">
               <p>$9.99</p>
             </div>
           </div>
           <div className="under-game-container">
-            <img src={images[3]}></img>
+            <img src={images[3]} alt='stock'></img>
             <div className="under-game-footer">
               <p>$9.99</p>
             </div>

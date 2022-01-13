@@ -6,10 +6,10 @@ const SteamDeck = (props) => {
       <div className="section">
         <div className="steam-deck-images">
           <div id="myst-dock-1">
-            <img src={images[3]}></img>
+            <img src={images[3]} alt='stock'></img>
           </div>
           <div id="myst-dock-2">
-            <img src={images[4]}></img>
+            <img src={images[4]} alt='stock'></img>
             <h3>MYST DOCK</h3>
           </div>
         </div>

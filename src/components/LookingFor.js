@@ -9,7 +9,7 @@ const LookingFor = () => {
           <p>
             Or{" "}
             <span>
-              <a href="#">sign up</a>
+              <a href="/">sign up</a>
             </span>{" "}
             and join Myst for free
           </p>

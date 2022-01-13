@@ -17,7 +17,7 @@ const SpecialOffers = (props) => {
           </button>
           <div className="special-1">
             <div className="special-image-container-1">
-              <img src={images[0]}></img>
+              <img src={images[0]} alt='stock'></img>
               <div className="special-image-bottom-container-1">
                 <p>MIDWEEK MADNESS</p>
                 <div className="special-discounts">
@@ -34,7 +34,7 @@ const SpecialOffers = (props) => {
           </div>
           <div className="special-2">
             <div className="special-image-container-1">
-              <img src={images[1]}></img>
+              <img src={images[1]} alt='stock'></img>
               <div className="special-image-bottom-container-1">
                 <p>MIDWEEK MADNESS</p>
                 <div className="special-discounts">
@@ -51,7 +51,7 @@ const SpecialOffers = (props) => {
           </div>
           <div className="special-3">
             <div className="special-image-container-2">
-              <img src={images[2]}></img>
+              <img src={images[2]} alt='stock'></img>
               <div className="special-image-bottom-container-2">
                 <p>Today's deal!</p>
                 <div className="special-discounts">
@@ -66,7 +66,7 @@ const SpecialOffers = (props) => {
               </div>
             </div>
             <div className="special-image-container-2">
-              <img src={images[3]}></img>
+              <img src={images[3]} alt='stock'></img>
               <div className="special-image-bottom-container-2">
                 <p>Today's Deal!</p>
                 <div className="special-discounts">

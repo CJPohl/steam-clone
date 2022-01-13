@@ -16,15 +16,15 @@ const Footer = () => {
               <div className="company-info-bottom">
                 <ul>
                   <p>VAT included in all prices where applicable.</p>
-                  <a href="#">Privacy Policy</a>
+                  <a href="/">Privacy Policy</a>
                   <p> | </p>
-                  <a href="#">Legal</a>
+                  <a href="/">Legal</a>
                   <p> | </p>
-                  <a href="#">Myst Subscriber Agreement</a>
+                  <a href="/">Myst Subscriber Agreement</a>
                   <p> | </p>
-                  <a href="#">Refunds</a>
+                  <a href="/">Refunds</a>
                   <p> | </p>
-                  <a href="#">Cookies</a>
+                  <a href="/">Cookies</a>
                 </ul>
               </div>
             </div>
@@ -35,23 +35,23 @@ const Footer = () => {
           </div>
           <nav className="footer-nav">
             <ul>
-              <a href="#">About Dynamo</a>
+              <a href="/">About Dynamo</a>
               <p> | </p>
-              <a href="#">Jobs</a>
+              <a href="/">Jobs</a>
               <p> | </p>
-              <a href="#">Dynamoworks</a>
+              <a href="/">Dynamoworks</a>
               <p> | </p>
-              <a href="#">Dynamo Distribution</a>
+              <a href="/">Dynamo Distribution</a>
               <p> | </p>
-              <a href="#">Support</a>
+              <a href="/">Support</a>
               <p> | </p>
-              <a href="#">Gift Cards</a>
+              <a href="/">Gift Cards</a>
               <p> | </p>
-              <a className="footer-icon" href="#">
+              <a className="footer-icon" href="/">
                 <i className="fab fa-facebook-square"></i>Dyamno
               </a>
               <p> | </p>
-              <a className="footer-icon" href="#">
+              <a className="footer-icon" href="/">
                 <i className="fab fa-twitter-square"></i>@dynamo
               </a>
             </ul>
