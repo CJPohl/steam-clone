@@ -19,7 +19,7 @@ const NavBar = () => {
           <div className="nav-search">
             <input type="text" placeholder="search"></input>
             <button>
-              <i class="fas fa-search"></i>
+              <i className="fas fa-search"></i>
             </button>
           </div>
         </nav>
@@ -27,5 +27,8 @@ const NavBar = () => {
     </section>
   );
 };
+
+
+
 
 export default NavBar;
