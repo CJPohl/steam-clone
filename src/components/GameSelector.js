@@ -24,7 +24,7 @@ const GameSelector = (props) => {
               <img src={images[0]}></img>
               <div className="game-info-left">
                 <h5>Game Name</h5>
-                <i class="fab fa-windows"></i>
+                <i className="fab fa-windows"></i>
                 <p>Genre, genre, genre</p>
               </div>
               <div className="game-discount">
@@ -40,7 +40,7 @@ const GameSelector = (props) => {
               <img src={images[1]}></img>
               <div className="game-info-left">
                 <h5>Game Name</h5>
-                <i class="fab fa-windows"></i>
+                <i className="fab fa-windows"></i>
                 <p>Genre, genre, genre</p>
               </div>
               <div className="game-discount">
@@ -56,7 +56,7 @@ const GameSelector = (props) => {
               <img src={images[2]}></img>
               <div className="game-info-left">
                 <h5>Game Name</h5>
-                <i class="fab fa-windows"></i>
+                <i className="fab fa-windows"></i>
                 <p>Genre, genre, genre</p>
               </div>
               <div className="game-discount">
@@ -75,7 +75,7 @@ const GameSelector = (props) => {
               <img src={images[3]}></img>
               <div className="game-info-left">
                 <h5>Game Name</h5>
-                <i class="fab fa-windows"></i>
+                <i className="fab fa-windows"></i>
                 <p>Genre, genre, genre</p>
               </div>
               <div className="game-discount">
@@ -91,7 +91,7 @@ const GameSelector = (props) => {
               <img src={images[4]}></img>
               <div className="game-info-left">
                 <h5>Game Name</h5>
-                <i class="fab fa-windows"></i>
+                <i className="fab fa-windows"></i>
                 <p>Genre, genre, genre</p>
               </div>
               <div className="game-discount">
@@ -110,7 +110,7 @@ const GameSelector = (props) => {
               <img src={images[5]}></img>
               <div className="game-info-left">
                 <h5>Game Name</h5>
-                <i class="fab fa-windows"></i>
+                <i className="fab fa-windows"></i>
                 <p>Genre, genre, genre</p>
               </div>
               <div className="game-discount">
@@ -126,7 +126,7 @@ const GameSelector = (props) => {
               <img src={images[0]}></img>
               <div className="game-info-left">
                 <h5>Game Name</h5>
-                <i class="fab fa-windows"></i>
+                <i className="fab fa-windows"></i>
                 <p>Genre, genre, genre</p>
               </div>
               <div className="game-discount">
@@ -142,7 +142,7 @@ const GameSelector = (props) => {
               <img src={images[1]}></img>
               <div className="game-info-left">
                 <h5>Game Name</h5>
-                <i class="fab fa-windows"></i>
+                <i className="fab fa-windows"></i>
                 <p>Genre, genre, genre</p>
               </div>
               <div className="game-discount">
@@ -158,7 +158,7 @@ const GameSelector = (props) => {
               <img src={images[2]}></img>
               <div className="game-info-left">
                 <h5>Game Name</h5>
-                <i class="fab fa-windows"></i>
+                <i className="fab fa-windows"></i>
                 <p>Genre, genre, genre</p>
               </div>
               <div className="game-discount">
@@ -174,7 +174,7 @@ const GameSelector = (props) => {
               <img src={images[3]}></img>
               <div className="game-info-left">
                 <h5>Game Name</h5>
-                <i class="fab fa-windows"></i>
+                <i className="fab fa-windows"></i>
                 <p>Genre, genre, genre</p>
               </div>
               <div className="game-discount">

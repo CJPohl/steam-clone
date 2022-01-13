@@ -10,10 +10,10 @@ const SpecialOffers = (props) => {
         </div>
         <div className="special-images">
           <button className="button-left arrow" id="special-left">
-            <i class="fas fa-chevron-left"></i>
+            <i className="fas fa-chevron-left"></i>
           </button>
           <button className="button-right arrow" id="special-right">
-            <i class="fas fa-chevron-right"></i>
+            <i className="fas fa-chevron-right"></i>
           </button>
           <div className="special-1">
             <div className="special-image-container-1">

@@ -13,10 +13,10 @@ const Under10 = (props) => {
         </div>
         <div className="under-games">
           <button id="under-left" className="button-left arrow">
-            <i class="fas fa-chevron-left"></i>
+            <i className="fas fa-chevron-left"></i>
           </button>
           <button id="under-right" className="button-right arrow">
-            <i class="fas fa-chevron-right"></i>
+            <i className="fas fa-chevron-right"></i>
           </button>
           <div className="under-game-container">
             <img src={images[0]}></img>

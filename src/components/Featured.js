@@ -7,10 +7,10 @@ const Featured = (props) => {
         <h3>FEATURED & RECOMMENDED</h3>
         <div className="featured-image-container">
           <button className="button-left arrow" id="featured-left">
-            <i class="fas fa-chevron-left"></i>
+            <i className="fas fa-chevron-left"></i>
           </button>
           <button className="button-right arrow" id="featured-right">
-            <i class="fas fa-chevron-right"></i>
+            <i className="fas fa-chevron-right"></i>
           </button>
           <img className="featured-container-left" src={images[0]}></img>
           <div className="featured-info">

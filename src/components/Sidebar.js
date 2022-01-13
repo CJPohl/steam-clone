@@ -2,7 +2,7 @@ const Sidebar = () => {
   return (
     <aside className="sidebar">
       <div className="sidebar-logo">
-        <i class="fab fa-cloudsmith"></i>
+        <i className="fab fa-cloudsmith"></i>
         <h1>MYST</h1>
       </div>
       <div className="sidebar-div">

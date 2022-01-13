@@ -29,7 +29,7 @@ const Footer = () => {
               </div>
             </div>
             <div className="footer-logo">
-              <i class="fab fa-cloudsmith"></i>
+              <i className="fab fa-cloudsmith"></i>
               <p className="myst-tag">MYST</p>
             </div>
           </div>
